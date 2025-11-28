@@ -1,0 +1,44 @@
+                /* Fond avec une image floutée */
+                
+                body {
+                    font-family: 'Arial', sans-serif;
+                    background-image: url('../img/Background.jpg');
+                    background-size: cover;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                }
+                /* Conteneur du formulaire */
+                
+                .title {
+                    font-family: fantasy;
+                    color: aliceblue;
+                    font-size: x-large;
+                }
+                
+                .parag {
+                    font-size: medium;
+                    text-align: center !important;
+                    color: aliceblue;
+                    font-family: cursive;
+                }
+                
+                .form-container {
+                    /* Blanc semi-transparent */
+                    max-width: 400px;
+                    opacity: 1;
+                    transform: translateY(-20px);
+                    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+                }
+                /* Apparition avec JavaScript */
+                
+                .show {
+                    opacity: 1;
+                    transform: translateY(0);
+                }
+                /* Effet focus sur les champs */
+                
+                .form-control:focus {
+                    border-color: #007BFF;
+                    box-shadow: 0 0 8px rgba(0, 123, 255, 0.5);
+                    background-color: rgba(255, 255, 255, 0.9);
+                }

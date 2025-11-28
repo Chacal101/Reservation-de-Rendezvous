@@ -1,0 +1,46 @@
+    body {
+        font-family: 'Arial', sans-serif;
+        background-image: url('../img/Background.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    
+    h1 {
+        color: #333;
+        font-size: 2.5rem;
+    }
+    
+    .card {
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    
+    .card:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    }
+    
+    .card-img-top {
+        height: 200px;
+        object-fit: cover;
+        border-bottom: 2px solid #eaeaea;
+    }
+    
+    .card-title {
+        font-size: 1.25rem;
+        font-weight: bold;
+    }
+    
+    .card-text {
+        color: #666;
+    }
+    
+    .btn-primary {
+        background-color: #007bff;
+        border-color: #007bff;
+    }
+    
+    .btn-primary:hover {
+        background-color: #0056b3;
+        border-color: #0056b3;
+    }
